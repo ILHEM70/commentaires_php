@@ -8,17 +8,23 @@
     <style>
         body {
     font-family: Arial, sans-serif;
-    background-color: lightsteelblue;
+    background-image: url(https://img.freepik.com/photos-premium/arrangement-floral-automne-fleurs-delicates-audacieuses-dans-nuances-orange-bourgogne-rose-feuilles-eucalyptus-du-feuillage-saison_145776-103755.jpg?ga=GA1.1.62713767.1725504477&semt=ais_hybrid://png.pngtree.com/thumb_back/fh260/background/20231020/pngtree-textured-paper-watercolor-floral-background-a-romantic-display-with-empty-space-image_13655270.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
 
 .comment-form {
     max-width: 500px;
-    margin: 50px auto;
+    margin: 130px auto;
     padding: 20px;
-    background: #91e6eb;
-    box-shadow: 0 0 10px rgba(0, 0, 0.1, 0.5);
+    background: pink;
+    box-shadow: 0 0 10px rgba(0, 0, 0.5, 0.7);
+    transition: transform 0.5s ease;
+}
+.comment-form:hover {
+  transform: scale(1.5);
 }
 
 
